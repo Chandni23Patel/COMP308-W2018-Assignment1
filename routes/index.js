@@ -14,6 +14,10 @@ router.get('/contact', function(req, res, next) {
   res.render('../views/contact/index', { title: 'Contact' });
 });
 
+router.get('/givedetail', function(req, res, next) {
+  res.render('../views/contact/add', { title: 'Fill your detail here' });
+});
+
 router.get('/projects', function(req, res, next) {
   res.render('../views/projects/index', { title: 'Projects' });
 });
