@@ -7,11 +7,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
+  res.render('../views/about/index', { title: 'About' });
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('../views/contact/index', { title: 'Contact' });
 });
 
 router.get('/projects', function(req, res, next) {
