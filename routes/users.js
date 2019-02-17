@@ -1,3 +1,9 @@
+/*
+    File name: users.ejs (defining routes)
+    Student name: Chandni Patel
+    Student ID: 300990555
+    Date: Febuary 16, 2019
+*/
 var express = require('express');
 var router = express.Router();
 
